@@ -1,6 +1,8 @@
 #lang typed/racket/base
 
-(require sha "base64.rkt")
+(require 
+        sha
+        "base64.rkt")
 
 (provide (struct-out exn:fail:unsupported-algorithm)
          SigningFunction
