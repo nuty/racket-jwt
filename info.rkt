@@ -5,8 +5,7 @@
 (define deps '("srfi-lite-lib"
                "base"
                "typed-racket-lib"
-               "typed-racket-more"
-               "grommet"))
+               "typed-racket-more"))
 
 (define build-deps
   '("rackunit-lib" "web-server-lib" "racket-doc" "scribble-lib"
