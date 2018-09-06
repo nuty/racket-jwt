@@ -5,6 +5,7 @@
 (define deps '("srfi-lite-lib"
                "base"
                "typed-racket-lib"
+               "sha"
                "typed-racket-more"))
 
 (define build-deps
